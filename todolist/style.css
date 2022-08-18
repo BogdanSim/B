@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Poppins:wght@200;400&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+
+body{
+    background-color: rgb(10, 1, 1);
+    font-size:62.5%;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: rgb(246, 238, 238);
+    font-size: 10vw;
+    text-align: center;
+
+}
+
+form{
+    color: rgb(246, 238, 238);
+    font-size: 5rem;
+    text-align: center;
+    font-weight: bolder;
+    width: 30vw;
+}
+
+.input {
+    border: none;
+    color: #444;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+.input::placeholder {
+    color: #d5d5d5;
+    font-size: 4vw;
+}
+
+.input {
+    border: 1px solid #f6eeee;
+    color: #444;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: 30vw;
+    height: 1vh;
+
+}
+.input::placeholder {
+    color: #d5d5d5;
+}
+
+.input:focus{
+    outline-color: black;
+}
+
+.todos li {
+    border-top: 1px solid #0a0101;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
+
+.todos li.completed{
+    color: #4f9400;
+
+}
+
+p{
+    color: #f6eeee;
+    font-size: 2vw;
+}
+
+@media only screen and (max-width: 850px) {
+
+    h1{
+        margin-bottom: 4vh;
+    }
+
+    form{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+    p{
+        font-size: 4vw;
+    }
+}

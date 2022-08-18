@@ -1,0 +1,40 @@
+*{
+    margin:0 auto;
+    padding: 0;
+}
+body{
+    background-image: url("hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    width: 25vw;
+    height: 40vh;
+    display: block;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    margin-top: 25vh;
+    color: white;
+}
+.container h1{
+    color: white;
+    font-size: 1.7rem;
+}
+
+@media only screen and (max-width: 643px){
+    .container {
+        width: 80vw;
+        height: 55vh;
+    }
+}
+@media only screen and (max-width: 790px){
+    .container {
+        width: 60vw;
+        height: 55vh;
+    }
+}

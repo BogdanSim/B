@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="icon" type="image/png" href="favicon.png" sizes="16x16">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">\
+    <link rel="stylesheet" href="style.css">
+
+    <title>Calculator Consum</title>
+</head>
+<body>
+<div class="container">
+    <h1>Calculator consum auto</h1>
+
+    <div class="row form-group">
+        <div class="col">
+            <label for="km">Kilometri parcursi</label>
+            <input type="number" class="form-control" id="km" placeholder="Introdu km" min="0">
+
+
+        </div>
+    </div>
+
+    <div class="row form-group">
+        <div class="col">
+            <label for="litri">Litri consumati</label>
+            <input type="number" class="form-control" id="litri" placeholder="Introdu litri" min="0">
+
+
+        </div>
+    </div>
+
+    <div class="row form-group">
+        <div class="col">
+            <button type="button" id="calculateBtn" class="btn btn-success btn-block">Calculeaza</button>
+
+
+        </div>
+    </div>
+
+    <div class="row form-group">
+        <div class="col">
+           <h6>Consum autoturism (l/100km) : <strong id="consumFinal"> </strong></h6>
+
+
+        </div>
+    </div>
+
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
