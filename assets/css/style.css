@@ -420,29 +420,11 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
- /* background: url("../img/hero-bg.jpg") top center; */
+  background: url("../img/hero-bg.jpg") top center; 
   background-size: cover;
   position: relative;
 }
-.back-video{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
 
-}
-@media (min-aspect-ratio: 16/9) {
-  .back-video{
-    width: 100%;
-    height: auto;
-  }
-
-}
-@media (max-aspect-ratio: 16/9) {
-  .back-video{
-    width: 100%;
-    height: auto;
-  }
 #hero:before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
